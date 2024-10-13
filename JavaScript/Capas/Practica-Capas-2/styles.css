@@ -1,0 +1,32 @@
+/* Estilos generales para el contenedor principal */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px solid red;
+    border-radius: 0px;
+    margin: 50px auto;
+    padding: 1rem;
+    width: 70%;
+}
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:1rem;
+    border:3px solid green;
+}
+
+.gallery img {
+    margin: 1rem 1rem;
+    width: 15%;
+    border-radius: 0px;
+}
+.ponerBorde{
+   border:10px solid blue;
+}
+.quitarBorde{
+    border:none;
+}

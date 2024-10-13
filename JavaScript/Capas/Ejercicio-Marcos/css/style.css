@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #images {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  #images img {
+	   display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+  }
+  
+  #frame {
+    float: left;
+    width: 80%;
+  }
+  
+  #picture {
+    float: left;
+    width: 70%;
+    border: 10px solid black;
+    height: 400px;
+    text-align: center;
+  }
+  
+  #picture > div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #picture img {
+    width: 200px;
+    height: 200px;    
+  }
+  
+  #zoom {
+    float: left;
+    width: 30%;
+    text-align: center;
+  }
+  
+  #zoom img {
+    width: 60%;
+  }
+  
+  .colors {
+    height: 50px;
+    clear: both;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .colors div {
+    float: left;
+    width: 10%;
+    height: 80%;
+    margin: 5px;
+  }
+  
+  #rojo, #rojoBorde {
+    background-color: red;
+  }
+  
+  #azul, #azulBorde {
+    background-color: blue;
+  }
+  
+  #amarillo, #amarilloBorde {
+    background-color: yellow;
+  }
+  
+  #negro, #negroBorde {
+    background-color: black;
+  }
+  
+  #rosa, #rosaBorde {
+    background-color: pink;
+  }
+  
+  #verde, #verdeBorde {
+    background-color: green;
+  }
+  
+  .btn {
+    background-color: blue;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,12 @@
+#contenedorJuego {
+    position:absolute;
+    top:100px;
+    width:200px;
+    height:100px;   
+}
+
+#contenedorJuego > div{
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+}
