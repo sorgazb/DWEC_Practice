@@ -1,0 +1,101 @@
+Nombre,Edad,Cargo,Salario,Departamento
+Laura Fernández,37,Desarrollador Backend,98392,Desarrollo
+Pablo Hernández,34,Desarrollador Frontend,88446,Investigación y Desarrollo
+Miguel Ortiz,56,Desarrollador Frontend,102318,Marketing
+Laura Fernández,43,Científico de Datos,38713,Marketing
+Raquel Molina,25,Diseñador UX/UI,38260,Desarrollo
+Pablo Hernández,28,Desarrollador Backend,94806,Finanzas
+Luis Ramírez,22,Administrador de Sistemas,84974,Seguridad
+María Gómez,50,Diseñador UX/UI,62395,Diseño
+Carlos García,34,Desarrollador Full Stack,106564,Infraestructura
+Juan Sánchez,57,Administrador de Sistemas,113321,Infraestructura
+Luis Ramírez,40,Especialista en Seguridad,41992,Seguridad
+José Pérez,25,Gerente de Proyecto,54887,Seguridad
+Ana López,58,Administrador de Sistemas,55382,Marketing
+Elena Díaz,33,Especialista en Seguridad,31353,Ventas
+María Gómez,33,Desarrollador Full Stack,37588,Diseño
+Carmen Morales,41,Científico de Datos,115654,Investigación y Desarrollo
+José Pérez,48,Desarrollador Backend,52216,Seguridad
+Carmen Morales,48,Gerente de Proyecto,114326,Infraestructura
+Fernando Alonso,54,Desarrollador Backend,86579,Marketing
+Carmen Morales,22,Analista de Datos,66343,Recursos Humanos
+Elena Díaz,40,Especialista en Seguridad,83636,Soporte Técnico
+Pedro Martínez,22,Diseñador UX/UI,46551,Infraestructura
+José Pérez,37,Ingeniero de Software,50403,Ventas
+Luis Ramírez,38,Analista de Datos,101707,Soporte Técnico
+Pablo Hernández,40,Desarrollador Frontend,117795,Investigación y Desarrollo
+Carmen Morales,59,Científico de Datos,30186,Seguridad
+Raquel Molina,53,Diseñador UX/UI,106691,Infraestructura
+Ana López,53,Desarrollador Backend,42692,Desarrollo
+Pablo Hernández,45,Ingeniero de Software,75477,Desarrollo
+David Ruiz,34,Desarrollador Frontend,116990,Finanzas
+Laura Fernández,34,Desarrollador Frontend,63984,Diseño
+José Pérez,33,Gerente de Proyecto,69845,Soporte Técnico
+Sofía Navarro,34,Desarrollador Frontend,98869,Diseño
+Elena Díaz,47,Desarrollador Frontend,39492,Diseño
+Fernando Alonso,31,Científico de Datos,39955,Recursos Humanos
+José Pérez,56,Ingeniero de Software,65339,Investigación y Desarrollo
+Javier Rivera,22,Desarrollador Full Stack,63028,Seguridad
+Isabel Márquez,51,Administrador de Sistemas,56947,Investigación y Desarrollo
+Miguel Ortiz,29,Gerente de Proyecto,97947,Soporte Técnico
+Sofía Navarro,48,Desarrollador Backend,46183,Infraestructura
+Laura Fernández,31,Desarrollador Full Stack,46367,Soporte Técnico
+Luis Ramírez,23,Administrador de Sistemas,68794,Desarrollo
+Clara Castillo,42,Ingeniero de Software,66680,Finanzas
+Isabel Márquez,43,Analista de Datos,94379,Soporte Técnico
+José Pérez,31,Científico de Datos,58543,Seguridad
+Javier Rivera,51,Desarrollador Full Stack,69306,Marketing
+Pablo Hernández,36,Ingeniero de Software,81196,Finanzas
+Raquel Molina,40,Especialista en Seguridad,94986,Ventas
+Ana López,42,Diseñador UX/UI,54196,Recursos Humanos
+María Gómez,31,Diseñador UX/UI,42229,Diseño
+Sofía Navarro,24,Analista de Datos,50597,Infraestructura
+Carlos García,60,Científico de Datos,118089,Investigación y Desarrollo
+Laura Fernández,49,Analista de Datos,91822,Seguridad
+Clara Castillo,60,Desarrollador Full Stack,110097,Marketing
+Javier Rivera,46,Desarrollador Full Stack,73862,Soporte Técnico
+David Ruiz,41,Especialista en Seguridad,51330,Investigación y Desarrollo
+Luis Ramírez,56,Analista de Datos,52670,Seguridad
+Carmen Morales,46,Científico de Datos,47710,Finanzas
+Carlos García,38,Desarrollador Full Stack,118950,Soporte Técnico
+Sara Torres,38,Especialista en Seguridad,90352,Seguridad
+Sofía Navarro,39,Administrador de Sistemas,71030,Seguridad
+Miguel Ortiz,30,Desarrollador Full Stack,55864,Finanzas
+José Pérez,51,Desarrollador Frontend,46907,Investigación y Desarrollo
+David Ruiz,27,Científico de Datos,112608,Investigación y Desarrollo
+Pedro Martínez,38,Analista de Datos,88501,Marketing
+Elena Díaz,38,Administrador de Sistemas,69123,Seguridad
+Pedro Martínez,56,Ingeniero de Software,63818,Infraestructura
+José Pérez,46,Gerente de Proyecto,82390,Ventas
+Luis Ramírez,24,Administrador de Sistemas,72737,Soporte Técnico
+Ana López,35,Desarrollador Full Stack,44815,Ventas
+Miguel Ortiz,56,Desarrollador Frontend,101301,Diseño
+Javier Rivera,25,Desarrollador Backend,74386,Finanzas
+María Gómez,23,Científico de Datos,79573,Soporte Técnico
+Juan Sánchez,58,Administrador de Sistemas,90862,Investigación y Desarrollo
+Raquel Molina,45,Desarrollador Backend,82690,Infraestructura
+Elena Díaz,43,Analista de Datos,53602,Soporte Técnico
+Carlos García,42,Especialista en Seguridad,113027,Infraestructura
+Miguel Ortiz,47,Especialista en Seguridad,106186,Diseño
+Carlos García,41,Especialista en Seguridad,104755,Ventas
+Elena Díaz,34,Desarrollador Backend,97223,Marketing
+Raquel Molina,55,Científico de Datos,116488,Investigación y Desarrollo
+Laura Fernández,57,Desarrollador Frontend,79500,Finanzas
+José Pérez,48,Diseñador UX/UI,42567,Investigación y Desarrollo
+Pablo Hernández,38,Científico de Datos,33614,Finanzas
+Ana López,36,Administrador de Sistemas,71032,Infraestructura
+María Gómez,42,Administrador de Sistemas,116900,Ventas
+Carlos García,53,Especialista en Seguridad,91104,Ventas
+Carmen Morales,32,Especialista en Seguridad,67755,Marketing
+Miguel Ortiz,48,Desarrollador Frontend,99792,Ventas
+Miguel Ortiz,27,Gerente de Proyecto,80793,Finanzas
+Carmen Morales,40,Especialista en Seguridad,65016,Finanzas
+Elena Díaz,28,Diseñador UX/UI,61939,Desarrollo
+María Gómez,27,Diseñador UX/UI,91096,Diseño
+Sofía Navarro,28,Gerente de Proyecto,103162,Infraestructura
+Pedro Martínez,60,Analista de Datos,99058,Recursos Humanos
+Sofía Navarro,32,Ingeniero de Software,48262,Ventas
+Juan Sánchez,30,Ingeniero de Software,69038,Infraestructura
+Miguel Ortiz,52,Desarrollador Full Stack,35611,Investigación y Desarrollo
+Carlos García,28,Administrador de Sistemas,92805,Recursos Humanos
+Juan Sánchez,22,Ingeniero de Software,110114,Seguridad

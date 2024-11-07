@@ -1,0 +1,75 @@
+[
+  {
+    "tipo": "naturaleza",
+    "imagen": "assets/img/gallery/gallery-1.jpg",
+    "texto":"montañas"
+  },
+  
+  {
+    "tipo": "gente",
+    "imagen": "assets/img/gallery/gallery-2.jpg",
+     "texto":"paisanos"
+  },
+  {
+    "tipo": "arquitectura",
+    "imagen": "assets/img/gallery/gallery-3.jpg",
+     "texto":"puentes"
+    
+  },
+  {
+    "tipo": "animales",
+    "imagen": "assets/img/gallery/gallery-4.jpg",
+     "texto":"jabalíes"
+  },
+  {
+    "tipo": "deportes",
+    "imagen": "assets/img/gallery/gallery-5.jpg",
+     "texto":"ciclismo"
+  },
+   {
+    "tipo": "naturaleza",
+    "imagen": "assets/img/gallery/gallery-6.jpg",
+    "texto":"árboles"
+  },
+   {
+    "tipo": "gente",
+    "imagen": "assets/img/gallery/gallery-7.jpg",
+    "texto":"calle"
+  },
+   {
+    "tipo": "deportes",
+    "imagen": "assets/img/gallery/gallery-8.jpg",
+    "texto":"basket"
+  },
+   {
+    "tipo": "naturaleza",
+    "imagen": "assets/img/gallery/gallery-9.jpg",
+    "texto":"rios"
+  },
+   {
+    "tipo": "deportes",
+    "imagen": "assets/img/gallery/gallery-10.jpg",
+    "texto":"senderismo"
+  },
+   {
+    "tipo": "gente",
+    "imagen": "assets/img/gallery/gallery-11.jpg",
+    "texto":"conciertos"
+  },
+   {
+    "tipo": "naturaleza",
+    "imagen": "assets/img/gallery/gallery-12.jpg",
+    "texto":"huerto"
+  },
+   {
+    "tipo": "deportes",
+    "imagen": "assets/img/gallery/gallery-13.jpg",
+    "texto":"natación"
+  },
+   {
+    "tipo": "naturaleza",
+    "imagen": "assets/img/gallery/gallery-14.jpg",
+    "texto":"repoblación"
+  }
+  
+]

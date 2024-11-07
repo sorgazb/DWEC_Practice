@@ -1,0 +1,12 @@
+Jarandilla;21;11;55
+Losar;22;10;54
+Garganta;20;9;45
+Cuacos;23;12;34
+Talayuela;25;11;22
+Navalmoral;26;10;11
+Mesas;21;9;33
+Campillo;12;4;18
+Peraleda;18;11;15
+Bohonal;19;11;44
+Casatejada;23;10;14
+Miravete;22;9;19

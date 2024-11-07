@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "JoseAndres",
+        "descripcion": "El chef Jos? Andr?s ha sido nominado al premio Nobel de la Paz por su compromiso con los afectados por los desastres naturales y est? muy implicado en misiones humanitarias.  ",
+        "imagen": "\/img\/andres.jpg",
+        "funcion": "cocinero humanitario"
+    },
+    {
+        "id": 2,
+        "nombre": "Arguinano",
+        "descripcion": "Ha escrito varios libros orientados a la cocina f?cil. Su empresa, Bainet, es responsable tanto de su programa de televisi?n como de sus libros de cocina. Publica tambi?n libros de Arzak, Eva Argui?an",
+        "imagen": "\/img\/karlos.jpg",
+        "funcion": "cocinero televisivo"
+    },
+    {
+        "id": 3,
+        "nombre": "Arzak",
+        "descripcion": "Est? donde est? porque aprendi? de su madre una cosa: a amar la cocina; aunque si por ella hubiese sido, este donostiarra no ser?a hoy el cocinero que revolucion? la cocina vasca",
+        "imagen": "\/img\/arzak.jpg",
+        "funcion": "cocinero muy vasco"
+    },
+    {
+        "id": 4,
+        "nombre": "Adria",
+        "descripcion": "Se le considera un artista de la cocina, en la que ha introducido nuevas t?cnicas, como la deconstrucci?n descontextualizando ?ste concepto del mundo del arte (consistente en aislar los diversos ingre",
+        "imagen": "\/img\/adria.jpg",
+        "funcion": "comida muy rara con humos y espumas"
+    }
+]

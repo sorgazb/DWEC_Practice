@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "nombre": "Macarrones con tomate",
+        "ingredientes": "macarrones, tomate, aceite",
+        "imagen": "https:\/\/gastronomiaycia.republica.com\/wp-content\/uploads\/2023\/10\/lsc_rulocabra_2023-680x501.jpg",
+        "precio": 4
+    },
+    {
+        "id": 2,
+        "nombre": "Garbanzos con espinacas",
+        "ingredientes": "garbanzos, espinacas, aceite",
+        "imagen": "https:\/\/gastronomiaycia.republica.com\/wp-content\/photos\/estofado_ternera_guinness2.jpg",
+        "precio": 5
+    },
+    {
+        "id": 3,
+        "nombre": "arroz con cardillos",
+        "ingredientes": "arroz, cardillos, aceite",
+        "imagen": "https:\/\/imag.bonviveur.com\/bocadillo-poboy.webp",
+        "precio": 6
+    },
+    {
+        "id": 4,
+        "nombre": "alubias con boletus",
+        "ingredientes": "alubias, boletus, aceite",
+        "imagen": "https:\/\/imag.bonviveur.com\/presentacion-principal-del-jambalaya.webp",
+        "precio": 7
+    },
+    {
+        "id": 5,
+        "nombre": "lentejas con calabaza",
+        "ingredientes": "lentejas, calabaza,aceite",
+        "imagen": "https:\/\/imag.bonviveur.com\/preparacion-de-cocina-criolla.webp",
+        "precio": 5
+    },
+    {
+        "id": 6,
+        "nombre": "patatas con niscalos",
+        "ingredientes": "patatas, niscalos, aceite",
+        "imagen": "https:\/\/imag.bonviveur.com\/presentacion-principal-de-las-boudin-balls.webp",
+        "precio": 3
+    },
+    {
+        "id": 7,
+        "nombre": "tortilla patatas",
+        "ingredientes": "huevos, patatas, aceite",
+        "imagen": "https:\/\/imag.bonviveur.com\/beignets-de-nueva-orleans.webp",
+        "precio": 5
+    }
+]

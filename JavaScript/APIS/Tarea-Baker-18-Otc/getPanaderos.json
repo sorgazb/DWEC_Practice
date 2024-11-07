@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "PACO",
+        "funcion": "MEZCLADOR",
+        "imagen": "https:\/\/randomuser.me\/api\/portraits\/men\/16.jpg",
+        "edad": 25
+    },
+    {
+        "id": 2,
+        "nombre": "PACA",
+        "funcion": "HARINERO",
+        "imagen": "https:\/\/randomuser.me\/api\/portraits\/women\/17.jpg",
+        "precio": 45
+    },
+    {
+        "id": 3,
+        "nombre": "LOLO",
+        "funcion": "HORNERO",
+        "imagen": "https:\/\/randomuser.me\/api\/portraits\/men\/18.jpg",
+        "precio": 46
+    },
+    {
+        "id": 4,
+        "nombre": "LOLA",
+        "funcion": "LEVADURAS",
+        "imagen": "https:\/\/randomuser.me\/api\/portraits\/women\/19.jpg",
+        "precio": 37
+    }
+]
