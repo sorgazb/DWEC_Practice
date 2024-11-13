@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <button id="btnaniadirN" class="btn btn-info">
+            Añadir Número (push:final)
+          </button>
+          <p>
+            método push() añade uno o más elementos al final del array push:
+            vector.push(elemento)
+          </p>
+          <button id="btnaniadirB" class="btn btn-danger">
+            Añadir Nombre (push)
+          </button>
+          <p>añadir texto</p>
+          <button id="btnaniadirP" class="btn btn-info">
+            Añadir Película (push)
+          </button>
+          <p>Añadir [{ },{ }] objeto</p>
+          <button id="btnEliminarN" class="btn btn-success">
+            Eliminar Número (pop)
+          </button>
+          <p>
+            let elemento=vector.pop()elimina el último elemento de un vector y
+            se puede retornar para ver cuál era su valor
+          </p>
+          <button id="btnAniadirU" class="btn btn-primary">
+            Añadir al principio (unshift)
+          </button>
+          <p>
+            añade uno o más elementos al inicio del array y retorna el número de
+            elementos del array.
+          </p>
+
+          <button id="btnEliminarS" class="btn btn-secondary">
+            Eliminar al principio (shitf)
+          </button>
+          <p>
+            contenido=vector.shift(). Elimina el primer elemento del array y lo
+            retorna.
+          </p>
+
+          <button id="btnSlice" class="btn btn-info">
+            copia parte del vector
+          </button>
+          <p>
+            vector.slice(inicio,fin)Devuelve una copia del array desde el índice
+            inicio hasta el índice fin
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <button id="btnJoin" class="btn btn-info">
+            Añade separador con join
+          </button>
+          <p>
+            Devuelve un string con todos los elementos del vector separados por
+            el separador(parámetro).
+          </p>
+          <button id="btnIncludes" class="btn btn-danger">Includes</button>
+          <p>
+            El método includes retorna true si el elemento se encuentra en el
+            array, false en caso contrario (podemos utilizarlo en un if para
+            saber si un elemento se encuentra en el array).
+            vector.includes(elemento)
+          </p>
+          <button id="btnSort" class="btn btn-info">Sort</button>
+          <p>El método sort ordena un array</p>
+          <button id="btnReverse" class="btn btn-success">Reverse</button>
+          <p>Invierte el orden de un vector</p>
+
+          <button id="btnMap" class="btn btn-info">Map</button>
+          <p>Ejemplo de mapeo</p>
+
+          <button id="btnReduce" class="btn btn-info">Reduce</button>
+          <p>Ejemplo de Reduce</p>
+
+          <button id="btnFilter" class="btn btn-info">Filter</button>
+          <p>Ejemplo de filter</p>
+        </div>
+        <div class="col-lg-4">
+          <button id="btnSome" class="btn btn-info">some</button>
+          <p>Ejemplo de some</p>
+
+          <button id="btnEvery" class="btn btn-info">Every</button>
+          <p>Ejemplo de every</p>
+
+          <button id="btnFind" class="btn btn-info">Find</button>
+          <p>Ejemplo de find</p>
+          <button id="btnKeys" class="btn btn-info">keys</button>
+          <p>Ejemplo de keys</p>
+          <button id="btnValues" class="btn btn-info">values</button>
+          <p>Ejemplo de values</p>
+
+          <button id="btnEntry" class="btn btn-info">Entry</button>
+          <p>Ejemplo de entry</p>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="vectores.js"></script>
+</html>
