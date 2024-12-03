@@ -1,0 +1,37 @@
+<p></p>
+<div class="container">
+  <div class="row text-center">
+
+    <div class="col-lg-4">
+      <button (click)="activarChica()" class="btn btn-danger">Chica</button>
+      <button (click)="activarChico()" class="btn btn-primary">Chico</button>
+    </div>
+
+    <div class="col-lg-4">
+      <img [src]="imgChica" [width]="wChica" [height]="hChica">
+    </div>
+
+    <div class="col-lg-4">
+      <img [src]="imgChico" [width]="wChico" [height]="hChico">
+    </div>
+
+  </div>
+
+
+  <div class="row text-center">
+
+    <div class="col-lg-4">
+      <button (click)="activarChicaBucle()" [disabled]="activadoA" class="btn btn-danger">Chica</button>
+      <button (click)="activarChicoBucle()" [disabled]="activadoO" class="btn btn-primary">Chico</button>
+    </div>
+
+    <div class="col-lg-4">
+      <img [src]="imgChicaB" [width]="wChicaB" [height]="hChicaB">
+    </div>
+
+    <div class="col-lg-4">
+      <img [src]="imgChicoB" [width]="wChicoB" [height]="hChicoB">
+    </div>
+
+  </div>
+</div>

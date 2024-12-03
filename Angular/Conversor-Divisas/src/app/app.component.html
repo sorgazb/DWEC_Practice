@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="container">
+        <label for="">Teclea Euros:</label>
+        <input type="number" [(ngModel)]="euros" class="form-control" (ngModelChange)="conversion('euros')"/>
+        <label for="">Teclea Dolares:</label>
+        <input type="number" [(ngModel)]="dolares" class="form-control" (ngModelChange)="conversion('dolares')"/>
+        <label for="">Teclea Yenes:</label>
+        <input type="number" [(ngModel)]="yenes" class="form-control" (ngModelChange)="conversion('yenes')"/>
+        <button class="btn btn-danger" (click)="limpiar()">Limpiar</button>
+    </div>
+  </div>
+</div>

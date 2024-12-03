@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <p>{{segundos}}</p>
+      <button (click)="cuentaAtras()" [disabled]="activarB">{{textoBtn}}</button>
+    </div>
+    <div class="col-lg-6">
+      <div [style.backgroundColor]="color" [style.font-size]="tamanioF">
+        <p>DESARROLLO WEB</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <ul *ngFor="let persona of personas;let indice = index">
+        <li (mouseover)="verEdad(indice)" (mouseleave)="verNombre()">{{indicehover === indice ? persona.edad : persona.nombre }}</li>
+        </ul>
+    </div>
+    <div class="col-lg-6">
+      <ul *ngFor="let periodico of periodicos;let indice = index">
+        <li (mouseover)="verUrl(indice)" (mouseleave)="verNombreP()"><a href="{{periodico.url}}">{{indicehoverP === indice ? periodico.url : periodico.nombre }}</a></li>
+        </ul>
+    </div>
+  </div>
+</div>

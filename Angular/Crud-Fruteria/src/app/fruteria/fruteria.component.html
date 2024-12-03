@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <table class="table table-striped table-bordered">
+        <thead class="bg-success p-2" style="text-align: center; vertical-align: middle;">
+          <tr>
+            <th>Nombre</th>
+            <th>ID</th>
+            <th>Precio</th>
+            <th>Unidades</th>
+            <th>Imagen</th>
+            <th>Modificar</th>
+            <th>Borrar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let f of listaFrutas" style="text-align: center; vertical-align: middle;">
+            <td>{{f.nombre}}</td>
+            <td>{{f.id}}</td>
+            <td>{{f.precio}}</td>
+            <td>{{f.unidades}}</td>
+            <td><img src="{{f.imagen}}" width="50" height="50"></td>
+            <td><button (click)="modificar(f)" class="btn btn-success">Modificar</button></td>
+            <td><button (click)="eliminar(f.id)" class="btn btn-danger">Eliminar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-lg-4">
+      <form #f="ngForm">
+        <div class="form-group" style="margin: 5px;">
+          <label for="id">ID:</label>
+          <input [(ngModel)]="frutaSeleccionada.id" type="text" name="id" id="id" class="form-control" placeholder="Introduce el ID">
+        </div>
+        <div class="form-group" style="margin: 5px;">
+          <label for="nombre">Nombre:</label>
+          <input [(ngModel)]="frutaSeleccionada.nombre" type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce el Nombre">
+        </div>
+        <div class="form-group" style="margin: 5px;">
+          <label for="precio">Precio:</label>
+          <input [(ngModel)]="frutaSeleccionada.precio" type="number" name="precio" id="precio" class="form-control" placeholder="Introduce el Precio">
+        </div>
+        <div class="form-group" style="margin: 5px;">
+          <label for="unidades">Unidades:</label>
+          <input [(ngModel)]="frutaSeleccionada.unidades " type="number" name="unidades" id="unidades" class="form-control" placeholder="Introduce las Unidades">
+        </div>
+        <div class="form-group" style="margin: 5px;">
+          <label for="img">Imagen:</label>
+          <input [(ngModel)]="frutaSeleccionada.imagen" type="text" name="img" id="img" class="form-control" placeholder="Introduce el URL de la Imagen">
+        </div>
+        <button (click)="aniadirProducto(f)" class="btn btn-success" style="margin: 5px;">Añadir Fruta</button>
+        <button (click)="actualizarProducto(f)" class="btn btn-success" style="margin: 5px;">Actualizar Fruta</button>
+        <button (click)="resetearFormulario()" class="btn btn-warning" style="margin: 5px;">Resetear</button>
+        <p>{{mensajes}}</p>
+      </form>
+    </div>
+  </div>
+</div>
+

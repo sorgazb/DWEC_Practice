@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <button class="btn btn-info" (click)="aniadirFruta()">Añadir Frutas ngFor</button>
+      <input type="text" [(ngModel)]="nombreFruta" placeholder="Escribe nombre frutas" class="form-control" />
+      <p>Directiva [(ngModel)] {{nombreFruta}}</p>
+      <ul *ngFor="let fruta of frutas">
+        <li>{{fruta}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

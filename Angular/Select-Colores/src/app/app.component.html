@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="form-group">
+        <label for="color">Selecciona un color:</label>
+        <select class="form-select"  (change)="cambioColor()" id="color" [(ngModel)]="textoColor">
+          <option value="Rojo">Rojo</option>
+          <option value="Azul">Azul</option>
+          <option value="Amarillo">Amarillo</option>
+          <option value="Verde">Verde</option>
+        </select>
+
+        <label for="color">Selecciona un color:</label>
+        <select class="form-select"  (change)="cambioTamanio()" id="color" [(ngModel)]="tamanio">
+          <option value="12px">12px</option>
+          <option value="16px">16px</option>
+          <option value="20px">20px</option>
+          <option value="24px">24px</option>
+        </select>
+
+        <label for="color">Selecciona un color:</label>
+        <select class="form-select"  (change)="cambioColorFondo()" id="color" [(ngModel)]="textoColor">
+          <option value="Rojo">Rojo</option>
+          <option value="Azul">Azul</option>
+          <option value="Amarillo">Amarillo</option>
+          <option value="Verde">Verde</option>
+        </select>
+      </div>
+
+      <p class="col-lg-12" [ngClass]="[claseColor, claseBack, claseTamanio]">
+        DESARROLLO DE APLICACIONES WEB.
+      </p>
+    </div>
+  </div>
+</div>
