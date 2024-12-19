@@ -1,0 +1,10 @@
+Manzana:3
+Pera:6
+Plátano:4
+Mango:7
+Fresa:5
+Naranja:4
+Uva:8
+Kiwi:2
+Melón:6
+Sandía:3

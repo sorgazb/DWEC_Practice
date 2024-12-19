@@ -1,0 +1,36 @@
+<div>
+    <h1 mat-dialog-title>Jugador</h1>
+    <div mat-dialog-content>
+        <div class="contenedor">
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.id" type="number"
+                    placeholder="inserta id">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.nombre" type="text"
+                    placeholder="inserta nombre">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.posicion" type="text"
+                    placeholder="inserta posicion">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.equipo" type="text"
+                    placeholder="inserta equipo">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.dorsal" type="number"
+                    placeholder="inserta dorsal">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions>
+        <button mat-button (click)="cancelar()">Cancelar</button>
+        <button mat-button [mat-dialog-close]="data"
+            cdkFocusInitial>Confirmar</button>
+    </div>
+</div>

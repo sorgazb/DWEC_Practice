@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "name": "Pera",
+        "price": "6.00",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/pear.webp",
+        "activo": "1",
+        "stockActual": "-72",
+        "stockMinimo": "90"
+    },
+    {
+        "id": "2",
+        "name": "nectarina",
+        "price": "5.00",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/nectarine.webp",
+        "activo": "1",
+        "stockActual": "37",
+        "stockMinimo": "70"
+    },
+    {
+        "id": "3",
+        "name": "mandarina",
+        "price": "3.50",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/clementine.webp",
+        "activo": "1",
+        "stockActual": "117",
+        "stockMinimo": "40"
+    },
+    {
+        "id": "4",
+        "name": "ciruela",
+        "price": "5.00",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/plum.webp",
+        "activo": "1",
+        "stockActual": "3170",
+        "stockMinimo": "190"
+    },
+    {
+        "id": "5",
+        "name": "melocoton",
+        "price": "3.50",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/peach.webp",
+        "activo": "1",
+        "stockActual": "385",
+        "stockMinimo": "395"
+    },
+    {
+        "id": "6",
+        "name": "Fresa",
+        "price": "2.00",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/strawberry.webp",
+        "activo": "1",
+        "stockActual": "78",
+        "stockMinimo": "100"
+    },
+    {
+        "id": "7",
+        "name": "uvas",
+        "price": "2.50",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/grape.webp",
+        "activo": "1",
+        "stockActual": "442",
+        "stockMinimo": "300"
+    },
+    {
+        "id": "8",
+        "name": "manzana",
+        "price": "1.50",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/apple.webp",
+        "activo": "1",
+        "stockActual": "212",
+        "stockMinimo": "4"
+    },
+    {
+        "id": "9",
+        "name": "malacaton",
+        "price": "999.00",
+        "photo": "https:\/\/www.randomlists.com\/img\/fruits\/cantaloupe.webp",
+        "activo": "1",
+        "stockActual": "-20",
+        "stockMinimo": "4"
+    }
+]

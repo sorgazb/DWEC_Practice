@@ -1,0 +1,6 @@
+<div class="text-center mt-4">
+  <button class="btn btn-primary mb-3" (click)="generateRandomImage()">Generar Imagen</button>
+  <div *ngIf="randomImageUrl">
+    <img [src]="randomImageUrl" alt="Imagen Random" class="img-fluid rounded" />
+  </div>
+</div>

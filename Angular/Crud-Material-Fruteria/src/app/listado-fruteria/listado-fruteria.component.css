@@ -1,0 +1,27 @@
+.contenedor{
+    padding: 10px;
+    background-color: #39b496;
+}
+
+td{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button{
+    margin: 5px;
+}
+
+mat-paginator{
+    background-color: #175560;
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}

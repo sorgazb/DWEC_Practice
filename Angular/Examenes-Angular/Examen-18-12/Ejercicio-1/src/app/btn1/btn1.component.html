@@ -1,0 +1,11 @@
+<div class="d-flex flex-column align-items-center mt-4">
+  <button
+    *ngFor="let color of colors; let i = index"
+    class="btn my-2"
+    [ngClass]="getButtonClass(selectedColor)"
+    (click)="changeColors(i)"
+  >
+    Botón {{ i + 1 }}
+  </button>
+</div>
+

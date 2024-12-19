@@ -1,0 +1,47 @@
+<div>
+  <h1 mat-dialog-title>Tupla</h1>
+  <div mat-dialog-content>
+      <div class="contenedor">
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.indice" type="number"
+                  placeholder="inserta indice">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n1" type="number"
+                  placeholder="inserta n1">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n2" type="number"
+                  placeholder="inserta n2">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n3" type="number"
+                  placeholder="inserta n3">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n4" type="number"
+                  placeholder="inserta n4">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n5" type="number"
+                  placeholder="inserta n5">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+              <input matInput [(ngModel)]="data.n6" type="number"
+                  placeholder="inserta n6">
+          </mat-form-field>
+      </div>
+  </div>
+  <div mat-dialog-actions>
+      <button mat-button (click)="cancelar()">Cancelar</button>
+      <button mat-button [mat-dialog-close]="data"
+          cdkFocusInitial>Confirmar</button>
+  </div>
+</div>
+

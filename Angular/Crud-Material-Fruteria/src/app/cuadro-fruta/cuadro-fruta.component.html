@@ -1,0 +1,36 @@
+<div class="container">
+    <h1 mat-dialog-title>Fruta</h1>
+    <div mat-dialog-content>
+        <div class="contenedor">
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.id" type="number"
+                    placeholder="inserta id">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.nombre" type="text"
+                    placeholder="inserta nombre">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.precio" type="text"
+                    placeholder="inserta precio">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.unidades" type="text"
+                    placeholder="inserta unidades">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input matInput [(ngModel)]="data.imagen" type="text"
+                    placeholder="insetar imagen">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions>
+        <button mat-button (click)="cancelar()" style="background-color: red;color: aliceblue;">Cancelar</button>
+        <button mat-button [mat-dialog-close]="data"
+            cdkFocusInitial style="background: blue;color: aliceblue;">Confirmar</button>
+    </div>
+</div>

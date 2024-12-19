@@ -8,6 +8,7 @@ import { ServicioService } from '../servicio.service';
   styleUrls: ['./mensajeria.component.css']
 })
 export class MensajeriaComponent {
+
   chat ! : ChatModule
 
   chatSeleccionado : ChatModule={
@@ -29,5 +30,13 @@ export class MensajeriaComponent {
 
   aniadirMensaje(form:{value:ChatModule}) {
     this.httpCliente.crearMensaje(form.value).subscribe((c:ChatModule)=>{this.chat=c})
+  }
+
+  borrarTodosMensajes() {
+    this.httpCliente.eliminarMensajes().subscribe(x=>this.listaMensajes = x)
+  }
+
+  borrarMensaje(id:number) {
+    this.httpCliente.eliminarMensaje(id).subscribe((c:ChatModule)=>{this.chat=c})
   }
 }
