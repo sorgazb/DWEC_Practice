@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row align-items-center vh-100">
+    <div class="col-lg-12">
+      <!-- Nombre -->
+      <form [formGroup]="miFormulario" (ngSubmit)="enviar()" class="w-100">
+        <!-- Nombre -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Introduce tu nombre</mat-label>
+            <input type="text"  matInput placeholder="Nombre" formControlName="nombre">
+            <mat-error *ngIf="controlarErrorres('nombre', 'required')">Nombre requerido</mat-error>
+            <mat-error *ngIf="controlarErrorres('nombre', 'minlength')">Nombre más de 3 carácteres</mat-error>
+            <mat-error *ngIf="controlarErrorres('nombre', 'maxlength')">Nombre menos de 10 characters</mat-error>
+          </mat-form-field>
+        </div>
+        <!-- Apellidos -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Introduce tus Apellidos</mat-label>
+            <input type="text" matInput placeholder="Apellidos" formControlName="apellidos">
+            <mat-error *ngIf="controlarErrorres('apellidos', 'required')">Apellidos requeridos</mat-error>
+            <mat-error *ngIf="controlarErrorres('apellidos', 'minlength')">Apellidos debe tener más de 5 carácteres</mat-error>
+            <mat-error *ngIf="controlarErrorres('apellidos', 'maxlength')">Apellidos debe menos de 20 characters</mat-error>
+          </mat-form-field>
+        </div>
+        <!-- Email -->
+         <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Introduce el Email</mat-label>
+            <input type="email" matInput placeholder="Email" formControlName="email">
+            <mat-error *ngIf="controlarErrorres('email', 'required')">Email requerido</mat-error>
+            <mat-error *ngIf="controlarErrorres('email', 'email')">Formato de email no correcto</mat-error>
+          </mat-form-field>
+         </div>
+        <!-- Password -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Introduce la Contraseña</mat-label>
+            <input type="password" matInput placeholder="Contaseña" formControlName="password">
+            <mat-error *ngIf="controlarErrorres('password', 'required')">Contraseña requerida</mat-error>
+            <mat-error *ngIf="controlarErrorres('password', 'minlength')">Contraseña debe tener más de 8 carácteres</mat-error>
+            <mat-error *ngIf="controlarErrorres('password', 'pattern')">Contraseña debe cumplir el formato</mat-error>
+          </mat-form-field>
+         </div>
+         <button type="submit" class="btn btn-primary w-100" [disabled]="!miFormulario.valid">Validar</button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,902 @@
+[
+  {
+    "color": "Green",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-382",
+    "consumo": 6.2,
+    "precio": 33710,
+    "kms": 10909,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "Tesla",
+    "modelo": "Modelo-196",
+    "consumo": 5.8,
+    "precio": 34935,
+    "kms": 63776,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-884",
+    "consumo": 4.4,
+    "precio": 30634,
+    "kms": 34674,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "White",
+    "marca": "BMW",
+    "modelo": "Modelo-640",
+    "consumo": 5,
+    "precio": 21943,
+    "kms": 75025,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "White",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-138",
+    "consumo": 6,
+    "precio": 46595,
+    "kms": 100029,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Blue",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-611",
+    "consumo": 4.5,
+    "precio": 28941,
+    "kms": 100652,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Tesla",
+    "modelo": "Modelo-645",
+    "consumo": 4.4,
+    "precio": 15511,
+    "kms": 102523,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Blue",
+    "marca": "BMW",
+    "modelo": "Modelo-200",
+    "consumo": 9.1,
+    "precio": 46144,
+    "kms": 31589,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Toyota",
+    "modelo": "Modelo-926",
+    "consumo": 9.6,
+    "precio": 48272,
+    "kms": 78229,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Green",
+    "marca": "Toyota",
+    "modelo": "Modelo-214",
+    "consumo": 6.6,
+    "precio": 20383,
+    "kms": 55187,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mazda",
+    "modelo": "Modelo-346",
+    "consumo": 4.1,
+    "precio": 38515,
+    "kms": 12790,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mazda",
+    "modelo": "Modelo-444",
+    "consumo": 6.4,
+    "precio": 18955,
+    "kms": 51749,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Blue",
+    "marca": "Ford",
+    "modelo": "Modelo-976",
+    "consumo": 9.3,
+    "precio": 41391,
+    "kms": 89254,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Toyota",
+    "modelo": "Modelo-530",
+    "consumo": 5.1,
+    "precio": 38780,
+    "kms": 102588,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Blue",
+    "marca": "Audi",
+    "modelo": "Modelo-530",
+    "consumo": 7.3,
+    "precio": 31859,
+    "kms": 35942,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Mazda",
+    "modelo": "Modelo-526",
+    "consumo": 8.5,
+    "precio": 46067,
+    "kms": 47738,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mazda",
+    "modelo": "Modelo-696",
+    "consumo": 6.1,
+    "precio": 30883,
+    "kms": 54421,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Blue",
+    "marca": "BMW",
+    "modelo": "Modelo-569",
+    "consumo": 9.2,
+    "precio": 17144,
+    "kms": 36532,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "White",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-696",
+    "consumo": 5,
+    "precio": 21731,
+    "kms": 47869,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Silver",
+    "marca": "Hyundai",
+    "modelo": "Modelo-212",
+    "consumo": 7.5,
+    "precio": 37763,
+    "kms": 31446,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Blue",
+    "marca": "Honda",
+    "modelo": "Modelo-186",
+    "consumo": 5.1,
+    "precio": 41572,
+    "kms": 65354,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Silver",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-520",
+    "consumo": 6.5,
+    "precio": 37285,
+    "kms": 107011,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Nissan",
+    "modelo": "Modelo-204",
+    "consumo": 9.8,
+    "precio": 41266,
+    "kms": 9928,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Black",
+    "marca": "Ford",
+    "modelo": "Modelo-960",
+    "consumo": 7.7,
+    "precio": 17192,
+    "kms": 45318,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Gray",
+    "marca": "Ford",
+    "modelo": "Modelo-872",
+    "consumo": 8.3,
+    "precio": 43424,
+    "kms": 5307,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Silver",
+    "marca": "BMW",
+    "modelo": "Modelo-626",
+    "consumo": 5.5,
+    "precio": 25643,
+    "kms": 48571,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Black",
+    "marca": "Mazda",
+    "modelo": "Modelo-518",
+    "consumo": 3.6,
+    "precio": 31699,
+    "kms": 35545,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Silver",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-879",
+    "consumo": 6.9,
+    "precio": 23848,
+    "kms": 118719,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Audi",
+    "modelo": "Modelo-268",
+    "consumo": 6.9,
+    "precio": 20512,
+    "kms": 14425,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Hyundai",
+    "modelo": "Modelo-149",
+    "consumo": 4.1,
+    "precio": 16903,
+    "kms": 10316,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Blue",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-312",
+    "consumo": 7.5,
+    "precio": 38021,
+    "kms": 54194,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Kia",
+    "modelo": "Modelo-339",
+    "consumo": 9.1,
+    "precio": 19427,
+    "kms": 83773,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Blue",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-111",
+    "consumo": 4.1,
+    "precio": 35093,
+    "kms": 49933,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "White",
+    "marca": "Tesla",
+    "modelo": "Modelo-117",
+    "consumo": 7.8,
+    "precio": 28211,
+    "kms": 50825,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Mazda",
+    "modelo": "Modelo-251",
+    "consumo": 5.2,
+    "precio": 21316,
+    "kms": 82484,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "White",
+    "marca": "Hyundai",
+    "modelo": "Modelo-671",
+    "consumo": 6.8,
+    "precio": 49571,
+    "kms": 74262,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Mazda",
+    "modelo": "Modelo-800",
+    "consumo": 8.2,
+    "precio": 39961,
+    "kms": 25103,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Silver",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-950",
+    "consumo": 4.7,
+    "precio": 19506,
+    "kms": 30451,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Silver",
+    "marca": "Audi",
+    "modelo": "Modelo-657",
+    "consumo": 3.9,
+    "precio": 30193,
+    "kms": 30326,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Black",
+    "marca": "Hyundai",
+    "modelo": "Modelo-431",
+    "consumo": 8.5,
+    "precio": 43796,
+    "kms": 56538,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Kia",
+    "modelo": "Modelo-770",
+    "consumo": 9.4,
+    "precio": 24793,
+    "kms": 51435,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Black",
+    "marca": "Honda",
+    "modelo": "Modelo-624",
+    "consumo": 10,
+    "precio": 27389,
+    "kms": 56701,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Blue",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-831",
+    "consumo": 6.9,
+    "precio": 47093,
+    "kms": 9125,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "White",
+    "marca": "BMW",
+    "modelo": "Modelo-215",
+    "consumo": 4.9,
+    "precio": 37127,
+    "kms": 68847,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Black",
+    "marca": "Honda",
+    "modelo": "Modelo-373",
+    "consumo": 4.5,
+    "precio": 18567,
+    "kms": 118983,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Silver",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-601",
+    "consumo": 8.5,
+    "precio": 17605,
+    "kms": 73432,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Kia",
+    "modelo": "Modelo-812",
+    "consumo": 8.7,
+    "precio": 33166,
+    "kms": 30948,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Green",
+    "marca": "Hyundai",
+    "modelo": "Modelo-149",
+    "consumo": 8.5,
+    "precio": 17073,
+    "kms": 13193,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Green",
+    "marca": "Audi",
+    "modelo": "Modelo-376",
+    "consumo": 9.5,
+    "precio": 20865,
+    "kms": 40863,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Kia",
+    "modelo": "Modelo-127",
+    "consumo": 8.2,
+    "precio": 26252,
+    "kms": 67720,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Mazda",
+    "modelo": "Modelo-842",
+    "consumo": 8,
+    "precio": 44436,
+    "kms": 92857,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Black",
+    "marca": "Honda",
+    "modelo": "Modelo-244",
+    "consumo": 8.6,
+    "precio": 16400,
+    "kms": 59335,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Black",
+    "marca": "Audi",
+    "modelo": "Modelo-614",
+    "consumo": 8.7,
+    "precio": 47832,
+    "kms": 85658,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-615",
+    "consumo": 8,
+    "precio": 29672,
+    "kms": 60920,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "White",
+    "marca": "Toyota",
+    "modelo": "Modelo-419",
+    "consumo": 3.7,
+    "precio": 49084,
+    "kms": 99978,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Green",
+    "marca": "Hyundai",
+    "modelo": "Modelo-540",
+    "consumo": 4.8,
+    "precio": 30318,
+    "kms": 60426,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Silver",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-734",
+    "consumo": 8.3,
+    "precio": 25194,
+    "kms": 34370,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Red",
+    "marca": "Tesla",
+    "modelo": "Modelo-354",
+    "consumo": 5.1,
+    "precio": 45126,
+    "kms": 70491,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Mazda",
+    "modelo": "Modelo-418",
+    "consumo": 6,
+    "precio": 27428,
+    "kms": 27694,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Red",
+    "marca": "BMW",
+    "modelo": "Modelo-857",
+    "consumo": 5.3,
+    "precio": 44632,
+    "kms": 95256,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-323",
+    "consumo": 4.2,
+    "precio": 16111,
+    "kms": 96045,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Hyundai",
+    "modelo": "Modelo-764",
+    "consumo": 3.7,
+    "precio": 35369,
+    "kms": 11160,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Silver",
+    "marca": "Hyundai",
+    "modelo": "Modelo-725",
+    "consumo": 7.1,
+    "precio": 34749,
+    "kms": 101474,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Blue",
+    "marca": "Hyundai",
+    "modelo": "Modelo-314",
+    "consumo": 9.3,
+    "precio": 45244,
+    "kms": 78243,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mazda",
+    "modelo": "Modelo-525",
+    "consumo": 6.3,
+    "precio": 27645,
+    "kms": 11786,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Red",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-936",
+    "consumo": 5.6,
+    "precio": 36920,
+    "kms": 87260,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Hyundai",
+    "modelo": "Modelo-132",
+    "consumo": 5.6,
+    "precio": 19867,
+    "kms": 64796,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-110",
+    "consumo": 3.8,
+    "precio": 21607,
+    "kms": 85123,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Gray",
+    "marca": "Nissan",
+    "modelo": "Modelo-608",
+    "consumo": 4,
+    "precio": 40779,
+    "kms": 77020,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Ford",
+    "modelo": "Modelo-559",
+    "consumo": 5,
+    "precio": 16054,
+    "kms": 115418,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Hyundai",
+    "modelo": "Modelo-905",
+    "consumo": 8.4,
+    "precio": 47914,
+    "kms": 73358,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Green",
+    "marca": "Honda",
+    "modelo": "Modelo-205",
+    "consumo": 4,
+    "precio": 20976,
+    "kms": 15332,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Kia",
+    "modelo": "Modelo-636",
+    "consumo": 7.3,
+    "precio": 46662,
+    "kms": 30409,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Gray",
+    "marca": "BMW",
+    "modelo": "Modelo-479",
+    "consumo": 8.5,
+    "precio": 19033,
+    "kms": 70196,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Silver",
+    "marca": "Tesla",
+    "modelo": "Modelo-250",
+    "consumo": 9,
+    "precio": 37731,
+    "kms": 45072,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Green",
+    "marca": "Audi",
+    "modelo": "Modelo-449",
+    "consumo": 5.4,
+    "precio": 33905,
+    "kms": 64043,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Tesla",
+    "modelo": "Modelo-345",
+    "consumo": 4,
+    "precio": 26189,
+    "kms": 48609,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Black",
+    "marca": "Mercedes-Benz",
+    "modelo": "Modelo-114",
+    "consumo": 9.3,
+    "precio": 31550,
+    "kms": 110789,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Black",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-598",
+    "consumo": 8.8,
+    "precio": 19321,
+    "kms": 73196,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Red",
+    "marca": "Hyundai",
+    "modelo": "Modelo-348",
+    "consumo": 3.8,
+    "precio": 41737,
+    "kms": 28513,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Black",
+    "marca": "Honda",
+    "modelo": "Modelo-574",
+    "consumo": 9.8,
+    "precio": 40825,
+    "kms": 33290,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Blue",
+    "marca": "Honda",
+    "modelo": "Modelo-858",
+    "consumo": 7.3,
+    "precio": 19404,
+    "kms": 87252,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Red",
+    "marca": "Honda",
+    "modelo": "Modelo-548",
+    "consumo": 8.1,
+    "precio": 22301,
+    "kms": 19126,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Nissan",
+    "modelo": "Modelo-195",
+    "consumo": 8.8,
+    "precio": 27069,
+    "kms": 105656,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "Silver",
+    "marca": "Ford",
+    "modelo": "Modelo-523",
+    "consumo": 6.2,
+    "precio": 29790,
+    "kms": 24428,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Silver",
+    "marca": "Mazda",
+    "modelo": "Modelo-806",
+    "consumo": 9.9,
+    "precio": 29853,
+    "kms": 103335,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Red",
+    "marca": "Hyundai",
+    "modelo": "Modelo-747",
+    "consumo": 9.1,
+    "precio": 46973,
+    "kms": 20713,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Gray",
+    "marca": "Toyota",
+    "modelo": "Modelo-739",
+    "consumo": 9.8,
+    "precio": 21141,
+    "kms": 26774,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Black",
+    "marca": "Volkswagen",
+    "modelo": "Modelo-577",
+    "consumo": 9.3,
+    "precio": 16934,
+    "kms": 91044,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Silver",
+    "marca": "BMW",
+    "modelo": "Modelo-715",
+    "consumo": 4.2,
+    "precio": 28845,
+    "kms": 56894,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Green",
+    "marca": "Mazda",
+    "modelo": "Modelo-782",
+    "consumo": 6.8,
+    "precio": 29450,
+    "kms": 8444,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "Green",
+    "marca": "Audi",
+    "modelo": "Modelo-815",
+    "consumo": 4.8,
+    "precio": 18004,
+    "kms": 66115,
+    "tipoMotor": "Gasolina"
+  },
+  {
+    "color": "White",
+    "marca": "Tesla",
+    "modelo": "Modelo-770",
+    "consumo": 7.8,
+    "precio": 23585,
+    "kms": 92774,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Yellow",
+    "marca": "Ford",
+    "modelo": "Modelo-804",
+    "consumo": 5.9,
+    "precio": 17684,
+    "kms": 28880,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Green",
+    "marca": "Hyundai",
+    "modelo": "Modelo-197",
+    "consumo": 4.1,
+    "precio": 41070,
+    "kms": 105611,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "Gray",
+    "marca": "Audi",
+    "modelo": "Modelo-780",
+    "consumo": 3.8,
+    "precio": 16247,
+    "kms": 51382,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Red",
+    "marca": "Hyundai",
+    "modelo": "Modelo-390",
+    "consumo": 7.4,
+    "precio": 48604,
+    "kms": 59056,
+    "tipoMotor": "Híbrido"
+  },
+  {
+    "color": "White",
+    "marca": "Hyundai",
+    "modelo": "Modelo-763",
+    "consumo": 4.5,
+    "precio": 28117,
+    "kms": 114544,
+    "tipoMotor": "Diesel"
+  },
+  {
+    "color": "Red",
+    "marca": "Chevrolet",
+    "modelo": "Modelo-667",
+    "consumo": 9.7,
+    "precio": 40616,
+    "kms": 90989,
+    "tipoMotor": "Eléctrico"
+  },
+  {
+    "color": "White",
+    "marca": "Nissan",
+    "modelo": "Modelo-535",
+    "consumo": 4.6,
+    "precio": 15841,
+    "kms": 21860,
+    "tipoMotor": "Gasolina"
+  }
+]

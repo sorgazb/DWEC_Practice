@@ -1,0 +1,25 @@
+<div id="huerto">
+    <h2>Huerto</h2>
+    
+    <span>Mensaje de Huerto para hortaliza</span>
+    <input [(ngModel)]="mensajeParaHortaliza">
+    <p>Hortaliza a huerto:{{mensajeDeHortaliza}}</p>
+    <p>Peticiones de Hortaliza (semilleros) a huerto {{peticionesSemilla}}</p>
+    
+    <app-hortaliza
+        [mensajeDeEntradaHortaliza]="mensajeParaHortaliza"
+        (mensajeDeSalidaHortaliza)="actualizarMensajeDeHortaliza($event)"
+        (nSemilleros)="actualizarNumeroSemilleros($event)">
+    </app-hortaliza>
+
+    <span>Mensaje Huerto para Frutal</span>
+    <input [(ngModel)]="mensajeParaFrutal">
+    <p>Frutal dice a Huerto: {{mensajeDeFrutal}}</p>
+    <p>Peticiones de Frutal (plantones) a huerto {{peticionesPlantones}}</p>
+    
+    <app-frutal
+        [mensajeDeEntradaFrutal]="mensajeParaFrutal"
+        (mensajeDeSalidaFrutal)="actualizarMensajeDeFrutal($event)"
+        (nPlantones)="actualizarNumeroPlantones($event)">
+    </app-frutal>
+</div>

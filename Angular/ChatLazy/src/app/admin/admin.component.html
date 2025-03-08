@@ -1,0 +1,96 @@
+<h1 style="font-weight: bold; text-align: center;" *ngIf="nombreUs!='admin@gmail.com'">No puedes accerder, no eres Administrador</h1>
+<p style="font-weight: bold; text-align: center;" *ngIf="!nombreUs">Usuario: sesión cerrada</p>
+<ng-container *ngIf="nombreUs == 'admin@gmail.com'">
+  <p>Usuario: {{ nombreUs }}</p>
+  <button class="btn btn-danger" (click)="cerrarSesion()">Cerrar Sesión</button>
+
+  <h1>Lista de Mensajes Chat</h1>
+  <input matInput (keyup)="filtar($event)" placeholder="Buscador ..." #input>
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort >
+      <!-- ID Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.id}} </td>
+      </ng-container>
+      <!-- Usuario Column -->
+      <ng-container matColumnDef="usuario">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Usuario </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.usuario}} </td>
+      </ng-container>
+      <!-- Fecha Column -->
+      <ng-container matColumnDef="fecha">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Fecha </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.fecha}} </td>
+      </ng-container>
+      <!-- Mensaje Column -->
+      <ng-container matColumnDef="mensaje">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Mensaje </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.mensaje}} </td>
+      </ng-container>
+      <!-- Mensaje Column -->
+      <ng-container matColumnDef="destinatario">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Destinatario </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.destinatario}} </td>
+      </ng-container>
+      <!-- Activo Column -->
+      <ng-container matColumnDef="activo">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Activo </th>
+        <td mat-cell *matCellDef="let mensaje"> {{mensaje.activo}} </td>
+      </ng-container>
+      <!-- Acciones Column -->
+      <ng-container matColumnDef="acciones">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Acciones </th>
+        <td mat-cell *matCellDef="let mensaje"> <button type="button" (click)="activarM(mensaje)">Activar</button> <button type="button" (click)="bloquearM(mensaje)">Bloquear</button></td>
+      </ng-container>
+        
+      <tr mat-header-row *matHeaderRowDef="cabecera"></tr>
+      <tr mat-row *matRowDef="let row; columns: cabecera;"></tr>
+      
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">No se ha encontrado "{{input.value}}"</td>
+      </tr>
+    </table>
+    <mat-paginator #paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+  </div>
+
+  <h1>Lista de Usuarios Chat</h1>
+  <input matInput (keyup)="filtar($event)" placeholder="Buscador ..." #input>
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource2" matSort >
+      <!-- Usuario Column -->
+      <ng-container matColumnDef="nombre">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Usuario </th>
+        <td mat-cell *matCellDef="let usuario">{{usuario.nombre}} </td>
+      </ng-container>
+      <!-- Email Column -->
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+        <td mat-cell *matCellDef="let usuario"> {{usuario.email}} </td>
+      </ng-container>
+      <!-- Pwd Column -->
+      <ng-container matColumnDef="pwd">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> PWD </th>
+        <td mat-cell *matCellDef="let usuario"> {{usuario.pwd}} </td>
+      </ng-container>
+      <!-- Activo Column -->
+      <ng-container matColumnDef="activo">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Activo </th>
+        <td mat-cell *matCellDef="let usuario"> {{usuario.activo}} </td>
+      </ng-container>
+      <!-- Acciones Column -->
+      <ng-container matColumnDef="acciones">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Acciones </th>
+        <td mat-cell *matCellDef="let usuario"> <button type="button" (click)="activarU(usuario)">Activar</button> <button type="button" (click)="bloquearU(usuario)">Bloquear</button></td>
+      </ng-container>
+      
+      <tr mat-header-row *matHeaderRowDef="cabecera2"></tr>
+      <tr mat-row *matRowDef="let row; columns: cabecera2;"></tr>
+
+      <tr class="mat-row" *matNoDataRow>
+        <td class="mat-cell" colspan="4">No se ha encontrado "{{input.value}}"</td>
+      </tr>
+    </table>
+    <mat-paginator #paginator2 [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+  </div>
+</ng-container>

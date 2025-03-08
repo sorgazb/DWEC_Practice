@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row d-flex justify-content-center">
+   <div class="col-lg-4">
+      <form [formGroup]="formulario1" (ngSubmit)="enviarDatos()">
+         <div class="form-group">
+           <!-- nombre -->
+          <label for="name">Teclea Nombre</label>
+          <input type="text" formControlName="nombre" class="form-control" name="nombre" id="inputName">
+
+          <!-- first name -->
+          <label for="firstName">Teclea Apellido</label>
+          <input type="text" formControlName="apellido" class="form-control" name="apellido" id="inputfirstName">
+
+          <!-- correo -->
+          <label for="mail">Teclea Mail</label>
+          <input type="email" formControlName="email" class="form-control" name="email" id="inputMail">
+
+          <!-- password -->
+          <label for="password">Teclea Password</label>
+          <input type="password" formControlName="password" class="form-control" name="password" id="inputPassword">
+
+        </div>
+        <!-- La clave de la validación viene dada por la propiedad disabled del botón Validar, mientras la boolean formulario1
+          sea false no se activa el botón -->
+        <button type="submit" class="btn btn-info" [disabled]="!formulario1.valid">Validar</button>
+      </form>
+   </div>
+  </div>
+</div>

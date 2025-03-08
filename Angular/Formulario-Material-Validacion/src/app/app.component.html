@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row align-items-center vh-100">
+    <div class="col-lg-12">
+      <!-- Nombre -->
+      <form [formGroup]="miFormulario" (ngSubmit)="enviar()" class="w-100">
+        <!-- Email -->
+         <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100" hideRequiredMarker>
+            <mat-label>Introduce el Email</mat-label>
+            <input type="email" matInput placeholder="Email" formControlName="email">
+            <mat-error *ngIf="controlarErrorres('email', 'required')">Email requerido</mat-error>
+            <mat-error *ngIf="controlarErrorres('email', 'email')">Formato de email no correcto</mat-error>
+          </mat-form-field>
+         </div>
+        <!-- Select trabajo -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Selecciona Puesto de Trabajo</mat-label>
+            <mat-select formControlName="puestoTrabajo">
+              <mat-option value="analista">Analista</mat-option>
+              <mat-option value="qa tester">QA Tester</mat-option>
+              <mat-option value="full stack">Full Stack</mat-option>
+              <mat-option value="diseñador front">Diseñador Front</mat-option>
+            </mat-select>
+            <mat-error *ngIf="controlarErrorres('puestoTrabajo', 'required')">Puesto de Trabajo requerido</mat-error>
+          </mat-form-field>
+        </div>
+        <!-- Select de Fecha -->
+         <div class="form-group">
+          <mat-form-field appearance="outline">
+            <mat-label>Fecha Nacimiento</mat-label>
+            <input matInput formControlName="fechaNacimiento" [matDatepicker]="picker">
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-error *ngIf="controlarErrorres('fechaNacimiento', 'required')">Fecha de Nacimiento requerida</mat-error>
+          </mat-form-field>
+         </div>
+        <!-- Password -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Introduce la Contraseña</mat-label>
+            <input type="password" matInput placeholder="Contaseña" formControlName="password">
+            <mat-error *ngIf="controlarErrorres('password', 'required')">Contraseña requerida</mat-error>
+            <mat-error *ngIf="controlarErrorres('password', 'minlength')">Contraseña debe tener más de 8 carácteres</mat-error>
+            <mat-error *ngIf="controlarErrorres('password', 'pattern')">Contraseña debe cumplir el formato</mat-error>
+          </mat-form-field>
+        </div>
+        <!-- Vuelve Validar Password -->
+        <div class="form-group">
+          <mat-form-field appearance="outline" class="w-100">
+            <mat-label>Vuelve a introducir la Contraseña</mat-label>
+            <input type="password" matInput placeholder="Contaseña" formControlName="password2">
+            <mat-error *ngIf="controlarErrorres('password2', 'required')">Contraseña requerida</mat-error>
+            <mat-error *ngIf="controlarErrorres('password2', 'minlength')">Contraseña debe tener más de 8 carácteres</mat-error>
+            <mat-error *ngIf="controlarErrorres('password2', 'pattern')">Contraseña debe cumplir el formato</mat-error>
+            <mat-error *ngIf="comprobarPassword()">Las contraseñas no coinciden</mat-error>
+          </mat-form-field>
+        </div>
+        <button type="submit" class="btn btn-primary w-100" [disabled]="!miFormulario.valid">Validar</button>
+      </form>
+    </div>
+  </div>
+</div>

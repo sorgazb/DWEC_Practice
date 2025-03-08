@@ -1,0 +1,34 @@
+
+<div>
+    <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+        <!-- Cargo -->
+        <div>
+            <label>Selecciona Hotel:</label>
+            <select formControlName="hotel">
+                <option value="gredos">Parador de Gredos</option>
+                <option value="nerja">Parador de Nerja</option>
+                <option value="baiona">Parador de Baiona</option>
+            </select>
+            <div *ngIf="formulario.get('hotel')?.hasError('required') && (formulario.get('hotel')?.dirty || formulario.get('hotel')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+        </div>
+        <!-- Fecha Entrada -->
+        <div>
+            <label>Fecha de Entrada:</label>
+            <input type="date" formControlName="fechaEntrada">
+            <div *ngIf="formulario.get('fechaEntrada')?.hasError('required') && (formulario.get('fechaEntrada')?.dirty || formulario.get('fechaEntrada')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+        </div>
+        <!-- Fecha Salida -->
+        <div>
+            <label>Fecha de Salida:</label>
+            <input type="date" formControlName="fechaSalida">
+            <div *ngIf="formulario.get('fechaSalida')?.hasError('required') && (formulario.get('fechaSalida')?.dirty || formulario.get('fechaSalida')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+        </div>
+        <button type="submit" [disabled]="!formulario.valid">Enviar</button>
+    </form>
+</div>

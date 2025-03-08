@@ -1,0 +1,67 @@
+<div>
+    <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+        <!-- Nombre -->
+        <div>
+            <label>Nombre:</label>
+            <input type="text" formControlName="nombre">
+            <div *ngIf="formulario.get('nombre')?.hasError('required') && (formulario.get('nombre')?.dirty || formulario.get('nombre')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('nombre')?.hasError('maxlength') && (formulario.get('nombre')?.dirty || formulario.get('nombre')?.touched)">
+                No puede tener más de 20 caracteres.
+            </div>
+        </div>
+        <!-- Correo Electronico Gmail -->
+        <div>
+            <label>Correo:</label>
+            <input type="email" formControlName="email">
+            <div *ngIf="formulario.get('email')?.hasError('required') && (formulario.get('email')?.dirty || formulario.get('email')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('email')?.hasError('email') && (formulario.get('email')?.dirty || formulario.get('email')?.touched)">
+                El correo debe ser válido.
+            </div>
+            <div *ngIf="formulario.get('email')?.hasError('pattern') && (formulario.get('email')?.dirty || formulario.get('email')?.touched)">
+                El correo debe ser de Gmail.
+            </div>
+        </div>
+        <!-- Edad -->
+        <div>
+            <label>Edad:</label>
+            <input type="number" formControlName="edad">
+            <div *ngIf="formulario.get('edad')?.hasError('required') && (formulario.get('edad')?.dirty || formulario.get('edad')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('edad')?.hasError('min') && (formulario.get('edad')?.dirty || formulario.get('edad')?.touched)">
+                Edad demasiado baja.
+            </div>
+        </div>
+        <!-- Cargo -->
+        <div>
+            <label>Cargo</label>
+            <select formControlName="puestoTrabajo">
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+                <option value="leader">Leader</option>
+            </select>
+            <div *ngIf="formulario.get('puestoTrabajo')?.hasError('required') && (formulario.get('puestoTrabajo')?.dirty || formulario.get('puestoTrabajo')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+        </div>
+        <!-- Salario -->
+        <div>
+            <label>Salario:</label>
+            <input type="number" formControlName="salario">
+            <div *ngIf="formulario.get('salario')?.hasError('required') && (formulario.get('salario')?.dirty || formulario.get('salario')?.touched)">
+                Esta campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('salario')?.hasError('min') && (formulario.get('salario')?.dirty || formulario.get('salario')?.touched)">
+                Salario demasiado bajo.
+            </div>
+            <div *ngIf="formulario.get('salario')?.hasError('max') && (formulario.get('salario')?.dirty || formulario.get('salario')?.touched)">
+                Salario demasiado alto.
+            </div>
+        </div>
+        <button type="submit" [disabled]="!formulario.valid">Enviar</button>
+    </form>
+</div>

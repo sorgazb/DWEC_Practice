@@ -1,0 +1,71 @@
+<div>
+    <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+        <!-- Visa -->
+        <div>
+            <label>Visa:</label>
+            <input type="text" formControlName="visa">
+            <div *ngIf="formulario.get('visa')?.hasError('required') && (formulario.get('visa')?.dirty || formulario.get('visa')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('visa')?.hasError('pattern') && (formulario.get('visa')?.dirty || formulario.get('visa')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+        </div>
+        <!-- MasterCard -->
+        <div>
+            <label>MasterCard:</label>
+            <input type="text" formControlName="masterCard">
+            <div *ngIf="formulario.get('masterCard')?.hasError('required') && (formulario.get('masterCard')?.dirty || formulario.get('masterCard')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('masterCard')?.hasError('pattern') && (formulario.get('masterCard')?.dirty || formulario.get('masterCard')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+        </div>
+        <!-- American Express -->
+        <div>
+            <label>American Express:</label>
+            <input type="text" formControlName="americanExpress">
+            <div *ngIf="formulario.get('americanExpress')?.hasError('required') && (formulario.get('americanExpress')?.dirty || formulario.get('americanExpress')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('americanExpress')?.hasError('pattern') && (formulario.get('americanExpress')?.dirty || formulario.get('americanExpress')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+        </div>
+        <!-- Discover -->
+        <div>
+            <label>Discover:</label>
+            <input type="text" formControlName="discover">
+            <div *ngIf="formulario.get('discover')?.hasError('required') && (formulario.get('discover')?.dirty || formulario.get('discover')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('discover')?.hasError('pattern') && (formulario.get('discover')?.dirty || formulario.get('discover')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+        </div>
+        <!-- Diners Club -->
+        <div>
+            <label>Diners Club:</label>
+            <input type="text" formControlName="dinersClub">
+            <div *ngIf="formulario.get('dinersClub')?.hasError('required') && (formulario.get('dinersClub')?.dirty || formulario.get('dinersClub')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('dinersClub')?.hasError('pattern') && (formulario.get('dinersClub')?.dirty || formulario.get('dinersClub')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+        </div>
+        <!-- JCB -->
+        <div>
+            <label>JCB:</label>
+            <input type="text" formControlName="jcb">
+            <div *ngIf="formulario.get('jcb')?.hasError('required') && (formulario.get('jcb')?.dirty || formulario.get('jcb')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('jcb')?.hasError('pattern') && (formulario.get('jcb')?.dirty || formulario.get('jcb')?.touched)">
+                El numero de tarjeta es invalido.
+            </div>
+         </div>
+        <button type="submit" [disabled]="!formulario.valid">Enviar</button>
+    </form>
+</div>

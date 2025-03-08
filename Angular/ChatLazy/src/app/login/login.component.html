@@ -1,0 +1,38 @@
+<ng-container>
+<div class="">
+  <div class="">
+      <div class="">
+          <div class="">
+              <h1 style="font-weight: bold; text-align: center;">Iniciar Sesion</h1>
+          </div>
+          <form [formGroup]="formRegistro" (ngSubmit)="loguearUsuario()">
+              <!-- Email -->
+              <div class="">
+                  <mat-form-field class="" appearance="outline" hideRequiredMarker>
+                      <mat-label class="">Email</mat-label>
+                      <input type="email"  matInput formControlName="email" placeholder="Introduce email">
+                  </mat-form-field>
+              </div>
+              <!-- Password -->
+              <div class="">
+                  <mat-form-field class="" appearance="outline" hideRequiredMarker>
+                      <mat-label class="">Introduce contraseña</mat-label>
+                      <input matInput type="password" formControlName="pwd" placeholder="Introduce contraseña">
+                  </mat-form-field>
+              </div>
+
+              <div style="text-align: center;">
+                  <button type="submit" [disabled]="!formRegistro.valid" class="btn btn-outline-primary">Iniciar Sesion</button>
+              </div>
+          </form>
+      </div>
+      <div style="text-align: center;">
+        <h3 style="font-weight: bold;">Servicios a utilizar:</h3>
+        <mat-button-toggle-group [(ngModel)]="tipoServicios" name="servicios" (ngModelChange)="cambiarServicios($event)">
+          <mat-button-toggle value="local">Local</mat-button-toggle>
+          <mat-button-toggle value="online">Online</mat-button-toggle>
+        </mat-button-toggle-group>
+      </div>
+  </div>
+</div>
+</ng-container>

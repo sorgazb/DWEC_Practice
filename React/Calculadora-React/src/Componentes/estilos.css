@@ -1,0 +1,44 @@
+body{
+    background-color: #6DB25F;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contenedorApp{
+    background-color: #263B1E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contendorPadre{
+    background-color: #3F5B27;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedorHijo{
+    background-color: #7CA85F;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+

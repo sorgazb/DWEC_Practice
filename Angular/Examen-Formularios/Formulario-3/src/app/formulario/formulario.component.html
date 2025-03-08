@@ -1,0 +1,74 @@
+<div>
+    <form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+        <!-- Solo letras -->
+        <div>
+            <label>Solo letras:</label>
+            <input type="text" formControlName="soloLetras">
+            <div *ngIf="formulario.get('soloLetras')?.hasError('required') && (formulario.get('soloLetras')?.dirty || formulario.get('soloLetras')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('soloLetras')?.hasError('pattern') && (formulario.get('soloLetras')?.dirty || formulario.get('soloLetras')?.touched)">
+                El formato del campo es invalido.
+            </div>
+        </div>
+        <!-- Solo Numeros -->
+        <div>
+            <label>Solo Numeros:</label>
+            <input type="text" formControlName="soloNumeros">
+            <div *ngIf="formulario.get('soloNumeros')?.hasError('required') && (formulario.get('soloNumeros')?.dirty || formulario.get('soloNumeros')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('soloNumeros')?.hasError('pattern') && (formulario.get('soloNumeros')?.dirty || formulario.get('soloNumeros')?.touched)">
+                El formato del campo es invalido.
+            </div>
+        </div>
+        <!-- Solo Mayusculas -->
+        <div>
+            <label>Solo Mayusculas:</label>
+            <input type="text" formControlName="soloMayusculas">
+            <div *ngIf="formulario.get('soloMayusculas')?.hasError('required') && (formulario.get('soloMayusculas')?.dirty || formulario.get('soloMayusculas')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('soloMayusculas')?.hasError('pattern') && (formulario.get('soloMayusculas')?.dirty || formulario.get('soloMayusculas')?.touched)">
+                El formato del campo es invalido.
+            </div>
+        </div>
+        <!-- Rango Numerico -->
+        <div>
+            <label>Rango Numerico:</label>
+            <input type="text" formControlName="rangoNumerico">
+            <div *ngIf="formulario.get('rangoNumerico')?.hasError('required') && (formulario.get('rangoNumerico')?.dirty || formulario.get('rangoNumerico')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('rangoNumerico')?.hasError('min') && (formulario.get('rangoNumerico')?.dirty || formulario.get('rangoNumerico')?.touched)">
+                El valor no esta dentro del rango permitido.
+            </div>
+            <div *ngIf="formulario.get('rangoNumerico')?.hasError('max') && (formulario.get('rangoNumerico')?.dirty || formulario.get('rangoNumerico')?.touched)">
+                El valor no esta dentro del rango permitido.
+            </div>
+        </div>
+        <!-- Cinco Numeros -->
+        <div>
+            <label>Cinco Numeros:</label>
+            <input type="text" formControlName="cincoNumeros">
+            <div *ngIf="formulario.get('cincoNumeros')?.hasError('required') && (formulario.get('cincoNumeros')?.dirty || formulario.get('cincoNumeros')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('cincoNumeros')?.hasError('pattern') && (formulario.get('cincoNumeros')?.dirty || formulario.get('cincoNumeros')?.touched)">
+                El formato del campo es invalido.
+            </div>
+        </div>
+        <!-- Diez Letras -->
+        <div>
+            <label>Diez Letras:</label>
+            <input type="text" formControlName="diezLetras">
+            <div *ngIf="formulario.get('diezLetras')?.hasError('required') && (formulario.get('diezLetras')?.dirty || formulario.get('diezLetras')?.touched)">
+                Este campo es obligatorio.
+            </div>
+            <div *ngIf="formulario.get('diezLetras')?.hasError('pattern') && (formulario.get('diezLetras')?.dirty || formulario.get('diezLetras')?.touched)">
+                El formato del campo es invalido.
+            </div>
+         </div>
+        <button type="submit" [disabled]="!formulario.valid">Enviar</button>
+    </form>
+</div>

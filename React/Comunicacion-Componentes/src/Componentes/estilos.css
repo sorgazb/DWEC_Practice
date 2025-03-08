@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.contenedorHortaliza{
+    padding: 10px;
+    background-color: #1BC727;
+    border-radius: 5px;
+    color: black;
+}
+
+.contenedorHuerto{
+    padding: 10px;
+    background-color: #c5261b;
+    border-radius: 5px;
+    color: white;
+}
+
+.contenedorFrutal{
+    padding: 10px;
+    background-color: #261bc5;
+    border-radius: 5px;
+    color: white;
+}
+
